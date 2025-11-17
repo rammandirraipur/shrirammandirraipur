@@ -7,7 +7,7 @@ const blogPosts = [
     title: "Ram Mandir Pran Pratishtha",
     image: "../Assets/mandir 1.jpg",
     description:
-      "The historic Pran Pratishtha ceremony marked the divine beginning of a new chapter in Ayodhya."
+      "The historic Pran Pratishtha ceremony marked the divine beginning of a new chapter in Raipur."
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const blogPosts = [
     title: "Places to Visit in Raipur",
     image: "../Assets/people.png",
     description:
-      "Explore important spiritual places and heritage sites around Ayodhya."
+      "Explore important spiritual places and heritage sites around Raipur."
   }
 ];
 
