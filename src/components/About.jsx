@@ -4,57 +4,70 @@ import "./About.css";
 const About = () => {
   return (
     <section className="about-section" id="about">
-      <h2>About Ram Mandir</h2>
+      <h2>Shri Ram Mandir, Raipur – A Spiritual Landmark of Chhattisgarh</h2>
 
       {/* About Content Container */}
       <div className="about-container">
-        {/* Decorative Lord Ram Images */}
-        <img
-          src="../Assets/ramlalla4.jpeg"
-          alt="Lord Ram"
-          className="ram-img"
-        />
-        <img
-          src="../Assets/ramlalla2.jpg"
-          alt="Lord Ram"
-          className="ram-img"
-        />
+        {/* Decorative Lord Ram Images with wrapper */}
+        <div className="ram-img-wrapper animate-left">
+          <img
+            src="../Assets/ramji.jpg"
+            alt="Lord Ram"
+            className="ram-img"
+          />
+        </div>
 
+        <div className="ram-img-wrapper animate-right">
+          <img
+            src="../Assets/hanumanji.png"
+            alt="Lord Ram"
+            className="ram-img"
+          />
+        </div>
+
+<div className="ram-img-wrapper animate-right">
+          <img
+            src="../Assets/ramlalla2.jpg"
+            alt="Lord Ram"
+            className="ram-img"
+          />
+        </div>
+         <div className="ram-img-wrapper animate-left">
+          <img
+            src="../Assets/hanumanji2.jpg"
+            alt="Lord Ram"
+            className="ram-img"
+          />
+        </div>
         {/* Main Content Box */}
-        <div className="about-text-box">
+        <div className="about-text-box animate-bottom animate-delay-3">
           <p>
-            Long ago, in the age of Aryavarta, the land that is now called
-            Chhattisgarh was known as Kaushal Pradesh, ruled by the wise King
-            Sukaushal.
+              <b> Location</b>: VIP Road, Raipur, Chhattisgarh
+          </p>
+          <p>
+        
+          Shri Ram Mandir in Raipur is a prominent temple dedicated to Lord Ram and Sita, inaugurated in 2017. The temple was built under the guidance of Chief Minister Raman Singh, with skilled artisans from Rajasthan and Odisha contributing to its traditional architecture.
           </p>
 
           <p>
-            His daughter, Princess Kaushalya—believed to be the rebirth of Queen
-            Amrit Prabha—became the bride of King Dasharatha of Ayodhya.
+            <h3>Why It Was Built</h3>
+  Chhattisgarh holds a special place in Lord Ram’s story — it is believed to be the maternal home of Mata Kaushalya, Ram’s mother. The temple was constructed to strengthen this spiritual connection and serve as a center for devotion, worship, and cultural heritage.
           </p>
 
           <p>
-            After a sacred yagya, King Dasharatha was blessed with four sons: Shri
-            Ram, Bharata, Lakshmana, and Shatrughna. Shri Ram, the eldest, later
-            became the embodiment of righteousness and the hero of the Ramayana.
+            <h3>Key Features</h3>
+          <ul>
+            <li>Idols of Lord Ram and Sita in a rare seated posture, carved from a single stone</li>
+            <li>Presence of Hanuman and 16 other deities</li>
+            <li>Magnificent 105-feet high structure with gardens, fountains, and decorative lighting</li>
+            <li>Facilities like yagya shala and navagraha shrine</li>
+            <li>Community services including subsidized meals for devotees</li>
+          </ul>
           </p>
 
           <p>
-            Because Princess Kaushalya belonged to Kaushal Pradesh, the people
-            lovingly regarded Lord Ram and His brothers as their nephews. From
-            this bond arose a tradition of honoring nephews during festivals.
-          </p>
-
-          <p>
-            Even today, in regions including Madhya Pradesh, Uttar Pradesh, Bihar,
-            Jharkhand, and Odisha, the “bhanja” holds a special and sacred place
-            in cultural rituals.
-          </p>
-
-          <p>
-            Thus, through devotion and generations of folklore, the people of
-            Chhattisgarh continue to see Lord Ram not only as a divine figure, but
-            also as their beloved nephew.
+            <h3>Significance</h3>
+          Shri Ram Mandir is more than just a temple — it is a spiritual hub, a cultural landmark, and a symbol of Chhattisgarh’s devotion to Lord Ram. It attracts devotees from across the state, especially during festivals like Ramnavami, and contributes to preserving the region’s rich heritage.
           </p>
         </div>
       </div>

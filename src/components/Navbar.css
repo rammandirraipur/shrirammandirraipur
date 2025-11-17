@@ -59,7 +59,7 @@
   /* Hide desktop links, convert to dropdown menu */
   .nav-links {
     position: absolute;
-    top: -300px;                 /* Hidden above navbar */
+    top: -50em;                 /* Hidden above navbar */
     left: 0;
     width: 100%;                 /* Full width dropdown */
     flex-direction: column;

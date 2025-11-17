@@ -12,9 +12,9 @@ const Gallery = () => {
   ];
 
   return (
-    <section className="gallery-section" id="gallery">
+    <section className="gallery-section animate-left" id="gallery">
       <h2>Temple Gallery</h2>
-      <div className="gallery-grid">
+      <div className="gallery-grid animate-right">
         {images.map((src, index) => (
           <img key={index} src={src} alt={`Temple view ${index + 1}`} />
         ))}

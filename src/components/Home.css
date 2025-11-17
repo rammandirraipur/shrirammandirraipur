@@ -1,25 +1,72 @@
 .home-section {
-  background: linear-gradient(to bottom right, #f8d486, #f6b64e);
+  position: relative;
+  /* background: linear-gradient(to bottom right, #f8d486, #f6b64e); */
   text-align: center;
   padding: 120px 20px;
   color: #3a1f04;
-  box-shadow: inset 0 -5px 30px rgba(0,0,0,0.2);
+  box-shadow: inset 0 -5px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures video covers the entire section */
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Makes sure the video stays behind the content */
+}
+
+.home-content {
+  position: relative; /* Make sure content is above the video */
+  z-index: 1; /* Ensure content stays above the video */
+  padding: 20px;
+  border-radius: 10px; /* Optional, adds a slight roundness to the corners */
 }
 
 .home-content h1 {
   font-size: 2.8rem;
-  color: #8b4513;
+  color: #fff;
   margin-bottom: 15px;
-  text-shadow: 2px 2px #f1c27d;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Enhanced shadow for text */
 }
 
 .home-content p {
   font-size: 1.1rem;
   max-width: 700px;
   margin: 0 auto 25px;
-  color: #3a1f04;
+  color: white;
+  line-height: 1.6; /* Improved line spacing for readability */
 }
 
+.btn-primary {
+  background-color: #f79b08;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+      font-weight: bold;
+
+}
+
+.btn-primary:hover {
+  background-color: #f5b939;
+  color: black;
+  
+}
 
 @media (max-width: 768px) {
   .home-content h1 {

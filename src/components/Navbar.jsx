@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-logo">
-        <img src="../Assets/logo.png" alt="" /> Ram Mandir Raipur
+        <img src="../Assets/logo.png" alt="" /> Shri Ram Mandir Raipur
       </div>
       <div className={`nav-links ${isOpen ? "active" : ""}`}>
         <a href="#home" className="nav-link" onClick={closeMenu}>
@@ -23,14 +23,20 @@ const Navbar = () => {
         <a href="#about" className="nav-link" onClick={closeMenu}>
           About
         </a>
-        <a href="#donation" className="nav-link" onClick={closeMenu}>
-          Donate
-        </a>
         <a href="#gallery" className="nav-link" onClick={closeMenu}>
           Gallery
         </a>
+         <a href="#contact" className="nav-link" onClick={closeMenu}>
+          Blogs
+        </a>
+         <a href="#contact" className="nav-link" onClick={closeMenu}>
+          Live Aarti
+        </a>
         <a href="#contact" className="nav-link" onClick={closeMenu}>
           Contact
+        </a>
+        <a href="#donation" className="nav-link" onClick={closeMenu} >
+          <b>DONATE</b>
         </a>
       </div>
       <div className="hamburger" id="hamburger" onClick={toggleMenu}>

@@ -2,6 +2,8 @@ import React from "react";
 import "./DonationForm.css";
 
 const DonationForm = () => {
+
+  
   return (
     <div className="donation-form-container" id="donation">
       {/* Heading */}
@@ -10,7 +12,7 @@ const DonationForm = () => {
       {/* Cards Container */}
       <div className="bank-cards-container">
         {/* Bank Card 1 */}
-        <div className="bank-card">
+        <div className="bank-card animate-left">
           <div className="bank-logo">
             <img
               src="../Assets/sbi.png" 
@@ -18,7 +20,7 @@ const DonationForm = () => {
               className="logo"
             />
           </div>
-          <div className="bank-info">
+          <div className="bank-info  ">
             <h4>Shri Ram Mandir Raipur (SBI)</h4>
             <p>Donate using UPI ID: <strong>shrirammandir@sbi</strong></p>
             <p>A/C Name: Shri Ram Mandir Raipur</p>
@@ -37,7 +39,7 @@ const DonationForm = () => {
         </div>
 
         {/* Bank Card 2 */}
-        <div className="bank-card">
+        <div className="bank-card animate-bottom ">
           <div className="bank-logo">
             <img
               src="../Assets/pnb.png" 
@@ -65,7 +67,7 @@ const DonationForm = () => {
         </div>
 
         {/* Bank Card 3 */}
-        <div className="bank-card">
+        <div className="bank-card animate-right">
           <div className="bank-logo">
             <img
               src="../Assets/hdfc.png" 

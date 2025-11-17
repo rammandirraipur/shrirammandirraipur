@@ -21,3 +21,25 @@
 .footer a:hover {
   color: #fff;
 }
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-icons a:hover {
+  color: #f9b95d;
+}
