@@ -23,7 +23,7 @@ const Footer = () => {
 
       <div className="contact-numbers">
         <div className="contact-box">
-          <p><strong>Trust Manager (Hemant Karmele)</strong></p>
+          <p><strong>Trust Prabandhak  (Hemant Karmele)</strong></p>
           <p>+91 9977227199</p>
         </div>
         <div className="contact-box">
